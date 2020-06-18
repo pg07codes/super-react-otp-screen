@@ -2,8 +2,70 @@
     min-height: 480px;
     min-width: 300px;
     margin:15vh 2vw;
-    background: #a8ff78;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #A1FFCE;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+
+
+}
+
+#logo-img{
+    width:100px;
+    margin-top : 30px;
+    margin-bottom: 100px;
+}
+.send-otp-btn{
+    background: #EDE574;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #E1F5C4, #EDE574);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #E1F5C4, #EDE574); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    display: block;
+    text-decoration: none;
+    color: #000;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    margin: 40px auto;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+    border-bottom: solid 3px  #4AC29A;
+    transition: .4s;
+    border-radius: 2rem;
+}
+
+.send-otp-btn:active{
+    -ms-transform: translateY(2px);
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+    border-bottom: none;
+}
+
+#login-otp input[type=text] {
+    background-position: 9px 10px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+    background-repeat: no-repeat;
+    padding-left: 50px;  
+    width: 80%;
+    padding: 15px 22px;
+    border-radius: 2rem; 
+}
+#login-otp input[type=text]:focus {
+    outline-width: 0;
+}
+
+select#codes{ 
+    /* background-image: url('search-icon.png'); */
+    background-color: white;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+    width: 90%;
+    padding: 15px 22px;
+    border-radius: 2rem; 
+    appearance: none;
+}
+select#codes:focus {
+    outline-width: 0;
 }
